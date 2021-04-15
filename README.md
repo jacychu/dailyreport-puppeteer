@@ -35,6 +35,5 @@ browser.close關閉網頁(Chrome headless)<br>
 
 **⭐️ 完成結果**<br>
 最後的成果，每週一早上到辦公室，只需要在terminal開啟daily-puppeteer檔案夾<br>
-按下npm run test 即完成自動登入，填寫表單標題，內容框架，並自動關閉網頁等一系列的動作。非常的方便！
-
-
+按下npm run test 即完成自動登入，填寫表單標題，內容框架，並自動關閉網頁等一系列的動作。<br>
+運用小工具協助工作更便利，是很棒也很有意義的任務！☺
