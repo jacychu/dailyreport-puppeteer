@@ -1,11 +1,11 @@
 # ✨dailyreport-puppeteer
 Use peppeteer help create daily report automatically!
 
-**⭐️Puppeteer簡介**
+**⭐️ Puppeteer簡介**<br>
 Puppeteer 是 Node.js 的函式庫，它提供各種 API 來控制Chrome或Chromium 瀏覽器。<br>
 Puppeteer主要使用功能包含自動化測試以及爬蟲。這邊用到自動化測試的功能。<br>
 
-**⭐️痛點說明**
+**⭐️ 痛點說明**<br>
 目前服務的公司部門單位，習慣使用Redmine做工作日誌記錄工具。<br>
 每週一的早上，必須使用自己的帳號密碼登入做一個「建立新訊息」的動作。<br>
 主旨欄位輸入年份週別「YYYY WW00」(EX:2021 WW03)。<br>
@@ -15,7 +15,7 @@ Puppeteer主要使用功能包含自動化測試以及爬蟲。這邊用到自�
 相遇Puppeteer之後，發現它可以解決這個問題(搭配Puppeteer內建的Chrome headless)<br>
 只需要撰寫幾行程式碼，代入正確的時間日期，即可一鍵呼叫即自動化完成！<br>
 
-**⭐️介紹步驟**
+**⭐️ 介紹步驟**<br>
 (index.js)
 certainUrl 變數輸入Redmine網址<br>
 接著是一系列編輯時間<br>
@@ -33,7 +33,7 @@ page.click點擊送出<br>
 browser.close關閉網頁(Chrome headless)<br>
 完成！
 
-**⭐️完成結果**
+**⭐️ 完成結果**<br>
 最後的成果，每週一早上到辦公室，只需要在terminal開啟daily-puppeteer檔案夾<br>
 按下npm run test 即完成自動登入，填寫表單標題，內容框架，並自動關閉網頁等一系列的動作。非常的方便！
 
